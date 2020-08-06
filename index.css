@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of CSS Reset */
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/* font-family: 'Chelsea Market', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+/* Font Imports End */
+html {
+    font-family: 'Roboto Mono', monospace;
+    font-size:24px;
+    line-height:1.5;
+}
+/* Look above this for main document stuff!  */
+/* TOP LINKS WITH BORDERS AND COLORS AND STUFF */
+nav {
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:50px;
+}
+.toplinkp {
+    display:inline-block;
+    width:15%;
+    border:1px solid #FF764E;
+    border-radius:10px;
+    padding:1%;
+    background-color:#FF764E;
+    color:white;
+    text-align:center;
+    margin-right:50px;
+}
+.toplinkl {
+    display:inline-block;
+    width:15%;
+    border:1px solid #5ED3EB;
+    border-radius:10px;
+    padding:1%;
+    background-color:#5ED3EB;
+    color:white;
+    text-align:center;
+    margin-left:50px;
+    margin-right:50px;
+}
+.toplinkg {
+    display:inline-block;
+    width:15%;
+    border:1px solid #FFCD69;
+    border-radius:10px;
+    padding:1%;
+    background-color:#FFCD69;
+    color:white;
+    text-align:center;
+    margin-right:50px;
+}
+/* TOPLINKS END */
+/* PICTURE, PAGE TITLE AND INLINE BLOCK AREA START */
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size:66px;
+    font-weight:bold;
+    display:inline-block;
+    margin-bottom:50px;
+}
+.yosemite-valley {
+    border-radius:50%;
+    width:25%;
+    display:inline-block;
+}
+.yosemite {
+    width:25%;
+    display:inline-block;
+    text-align:center;
+}
+.heady {
+    display:inline-block;
+    width:55%;
+    margin-bottom:50px;
+}
+.headette {
+    margin:50px;
+} /* PICTURE, PAGE TITLE AND INLINE BLOCK AREA END */
+/* PINKBG AREA START */
+.pinkbg {
+    border:1px solid #DDB9A3;
+    background-color:#DDB9A3;
+    color:white;
+    margin-left:5%;
+    margin-right:5%;
+    text-align:center;
+    width:80%;
+    padding:0 15 0 15px;
+}
+.pinkbg p {
+    margin-top:2%;
+    margin-bottom:2%;
+}/* PINKBG AREA END */
+/* CENTER AREA WITH IMAGES AND BOLD STUFF START */
+.central {
+    width:20%;
+    font-size:75%;
+    display:block;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    text-align:center;
+}
+.fire {
+    margin-bottom:10px;
+    height:auto;
+    width:auto;
+    max-height:200px;
+    max-width:200px;
+}
+.arvee {
+    margin-bottom:10px;
+} /* CENTER AREA WITH IMAGES AND BOLD STUFF END */
+/* FOOTER AREA START */
+footer {
+    background-color:#F9E7DC;
+    width:100%;
+}
+.omg { /*
+    max-width:700px;
+    max-height:250px;
+    overflow:hidden;
+    margin-bottom:50px; */
+    width:100%;
+    height:250px;
+    border:1px solid black;
+    
+}
+.omg img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position:50% 25%;
+}
+.bottomstuff {
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.bottomlinkp {
+    display:inline-block;
+    width:15%;
+    border:1px solid #FF764E;
+    border-radius:10px;
+    padding:1%;
+    background-color:#FF764E;
+    color:white;
+    text-align:center;
+    margin-right:50px;
+}
+.bottomlinkl {
+    display:inline-block;
+    width:15%;
+    border:1px solid #5ED3EB;
+    border-radius:10px;
+    padding:1%;
+    background-color:#5ED3EB;
+    color:white;
+    text-align:center;
+    margin-left:50px;
+    margin-right:50px;
+}
+.bottomlinkg {
+    display:inline-block;
+    width:15%;
+    border:1px solid #FFCD69;
+    border-radius:10px;
+    padding:1%;
+    background-color:#FFCD69;
+    color:white;
+    text-align:center;
+    margin-right:50px;
+}
