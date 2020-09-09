@@ -79,6 +79,10 @@ html {
 	text-align:center;
 	width:15%;
 }
+.Plan:hover{
+	background-color:#6C3483;
+	transition:1s;
+}
 .Learn {
 	border:1px solid #5ED3EB;
     border-radius:10px;
@@ -88,6 +92,12 @@ html {
 	text-align:center;
 	width:15%;
 }
+.Learn:hover {
+	background-color:#F9E79F;
+	border:1px solid #F9E79F;
+	color:grey;
+	transition:1s;
+}
 .Get {
 	border:1px solid #FFCD69;
     border-radius:10px;
@@ -96,6 +106,11 @@ html {
 	color:white;
 	text-align:center;
 	width:15%;
+}
+.Get:hover {
+	background-color:#2C3E50;
+	border:1px solid #2C3E50;
+	transition:1s;
 }
 /* TOP LINKS AREA END */
 
