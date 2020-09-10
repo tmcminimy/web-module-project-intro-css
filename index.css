@@ -62,6 +62,9 @@ html {
     font-size:24px;
     line-height:1.5;
 }
+a {
+	text-decoration:none;
+}
 /* MAIN OVERALL DOCUMENT CSS END  */
 
 /* TOP LINKS AREA START */
@@ -95,7 +98,7 @@ html {
 .Learn:hover {
 	background-color:#F9E79F;
 	border:1px solid #F9E79F;
-	color:grey;
+	color:black;
 	transition:1s;
 }
 .Get {
@@ -110,6 +113,21 @@ html {
 .Get:hover {
 	background-color:#2C3E50;
 	border:1px solid #2C3E50;
+	transition:1s;
+}
+.return {
+	border:1px solid #ff3356;
+	border-radius:10px;
+	padding:1%;
+	background-color:#ff3356;
+	color:white;
+	text-align:center;
+	width:15%;
+}
+.return:hover {
+	background-color:#00b8ff;
+	border:1px solid #00b8ff;
+	color:black;
 	transition:1s;
 }
 /* TOP LINKS AREA END */
@@ -138,6 +156,19 @@ h1 {
 }
 .headette {
 	margin-bottom:5%;
+}
+.oops {
+	display:flex;
+	justify-content:space-between;
+	margin:5%;
+}
+.masko {
+	margin-left:10%;
+	width:25%;
+}
+.ronavirus {
+	width:55%;
+	text-align:center;
 }
 /* HEADER AREA END */
 
